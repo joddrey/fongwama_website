@@ -1,9 +1,5 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <h1>FONGWAMA WEBSITE</h1>
 </template>
 
 <style lang="scss">
