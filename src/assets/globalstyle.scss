@@ -1,0 +1,24 @@
+@import '_header';
+
+html body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+// flexbox
+.flex {
+    display: flex;
+    
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+    
+    &-ai-c {
+        align-items: center;
+    }
+}

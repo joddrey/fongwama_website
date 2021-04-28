@@ -1,6 +1,17 @@
 <template>
+  <Mynav />
   <h1>FONGWAMA WEBSITE</h1>
 </template>
+
+<script>
+import Mynav from './components/Mynav.vue'
+
+export default {
+  name: 'app',
+  components:{ Mynav },
+  
+}
+</script>
 
 <style lang="scss">
 #app {
